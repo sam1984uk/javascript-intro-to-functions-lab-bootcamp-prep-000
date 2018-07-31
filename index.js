@@ -14,4 +14,6 @@ function logWhisper(string){var x = string.toLowerCase(); console.log(x);}
      return `I love you, too`;
      
    } else {
-     return `YES, INDEED!`;}
+     return `YES, INDEED!`;
+     
+   }}
