@@ -6,4 +6,12 @@ function logShout(string){ var x = string.toUpperCase(); console.log(x); }
 
 function logWhisper(string){var x = string.toLowerCase(); console.log(x);}
 
- function sayHiToGrandma(string){var lowercase = lowercase.toLowerCase() === lowercase; if(lowercase){return `I can't hear you!`;} else if === "I love you, Grandma!"{return `I love you, too`;} else {return `YES, INDEED!`;}
+ function sayHiToGrandma(string){
+   if(string.toLowerCase() === string){
+     return `I can't hear you!`;
+     
+   } else if (string === "I love you, Grandma!"){
+     return `I love you, too`;
+     
+   } else {
+     return `YES, INDEED!`;}
