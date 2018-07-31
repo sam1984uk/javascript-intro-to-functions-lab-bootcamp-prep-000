@@ -10,7 +10,7 @@ function logWhisper(string){var x = string.toLowerCase(); console.log(x);}
    if(string.toLowerCase() === string){
      return `I can't hear you!`;
      
-   } else if (string === "I love you, Grandma!"){
+   } else if (string === "I love you, Grandma."){
      return `I love you, too`;
      
    } else {
